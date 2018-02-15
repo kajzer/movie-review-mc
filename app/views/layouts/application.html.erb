@@ -9,12 +9,15 @@
   </head>
 
   <body>
-    <% flash.each do |name, msg| %>
-      <%= tag.div class: 'alert aleerrt-info' do %>
-        <%= msg %>
+    <%= render "layouts/header" %>
+    <div class="container">
+      <% flash.each do |name, msg| %>
+        <%= tag.div class: 'alert aleerrt-info' do %>
+          <%= msg %>
+        <% end %>
       <% end %>
-    <% end %>
-    
-    <%= yield %>
+      
+      <%= yield %>
+    </div>
   </body>
 </html>
