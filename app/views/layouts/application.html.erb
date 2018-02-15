@@ -9,6 +9,12 @@
   </head>
 
   <body>
+    <% flash.each do |name, msg| %>
+      <%= tag.div class: 'alert aleerrt-info' do %>
+        <%= msg %>
+      <% end %>
+    <% end %>
+    
     <%= yield %>
   </body>
 </html>
