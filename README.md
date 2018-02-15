@@ -2,8 +2,9 @@
 
 gems used:  
 gem 'devise'  
-imagemagik
-gem 'paperclip'
-gem 'bootstrap-sass', '~> 3.2.0.2'
-gem 'jquery-rails'
-raty.js
+imagemagik  
+gem 'paperclip'  
+gem 'bootstrap-sass', '~> 3.2.0.2'  
+gem 'jquery-rails'  
+raty.js  
+gem 'searchkick'
