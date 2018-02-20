@@ -1,38 +1,14 @@
-[2018-02-15 19:16:29,307][INFO ][node                     ] [Base] version[2.3.4], pid[3090], build[e455fd0/2016-06-30T11:24:31Z]
-[2018-02-15 19:16:29,308][INFO ][node                     ] [Base] initializing ...
-[2018-02-15 19:16:30,131][INFO ][plugins                  ] [Base] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
-[2018-02-15 19:16:30,217][INFO ][env                      ] [Base] using [1] data paths, mounts [[/ (none)]], net usable_space [1.1gb], net total_space [2.1gb], spins? [possibly], types [aufs]
-[2018-02-15 19:16:30,217][INFO ][env                      ] [Base] heap size [989.8mb], compressed ordinary object pointers [true]
-[2018-02-15 19:16:34,464][INFO ][node                     ] [Base] initialized
-[2018-02-15 19:16:34,465][INFO ][node                     ] [Base] starting ...
-[2018-02-15 19:16:34,653][INFO ][transport                ] [Base] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
-[2018-02-15 19:16:34,660][INFO ][discovery                ] [Base] elasticsearch/HSMq0fAeRU27tmtCOb16OA
-[2018-02-15 19:16:37,714][INFO ][cluster.service          ] [Base] new_master {Base}{HSMq0fAeRU27tmtCOb16OA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
-[2018-02-15 19:16:37,762][INFO ][http                     ] [Base] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
-[2018-02-15 19:16:37,763][INFO ][node                     ] [Base] started
-[2018-02-15 19:16:37,801][INFO ][gateway                  ] [Base] recovered [0] indices into cluster_state
-[2018-02-15 19:17:33,313][INFO ][cluster.metadata         ] [Base] [movies_development_20180215191732713] creating index, cause [api], templates [], shards [5]/[1], mappings [_default_]
-[2018-02-15 19:17:34,081][INFO ][cluster.metadata         ] [Base] [movies_development_20180215191732713] create_mapping [movie]
-[2018-02-15 19:17:34,235][INFO ][cluster.routing.allocation] [Base] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[movies_development_20180215191732713][4], [movies_development_20180215191732713][4]] ...]).
-[2018-02-15 19:18:31,481][INFO ][node                     ] [Base] stopping ...
-[2018-02-15 19:18:31,695][INFO ][node                     ] [Base] stopped
-[2018-02-15 19:18:31,695][INFO ][node                     ] [Base] closing ...
-[2018-02-15 19:18:31,712][INFO ][node                     ] [Base] closed
-[2018-02-15 19:26:21,324][INFO ][node                     ] [Hardshell] version[2.3.4], pid[3356], build[e455fd0/2016-06-30T11:24:31Z]
-[2018-02-15 19:26:21,324][INFO ][node                     ] [Hardshell] initializing ...
-[2018-02-15 19:26:22,205][INFO ][plugins                  ] [Hardshell] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
-[2018-02-15 19:26:22,240][INFO ][env                      ] [Hardshell] using [1] data paths, mounts [[/ (none)]], net usable_space [1.1gb], net total_space [2.1gb], spins? [possibly], types [aufs]
-[2018-02-15 19:26:22,240][INFO ][env                      ] [Hardshell] heap size [989.8mb], compressed ordinary object pointers [true]
-[2018-02-15 19:26:27,019][INFO ][node                     ] [Hardshell] initialized
-[2018-02-15 19:26:27,019][INFO ][node                     ] [Hardshell] starting ...
-[2018-02-15 19:26:27,149][INFO ][transport                ] [Hardshell] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
-[2018-02-15 19:26:27,158][INFO ][discovery                ] [Hardshell] elasticsearch/vCIRgG9nRKSs7P7hsseKQQ
-[2018-02-15 19:26:30,254][INFO ][cluster.service          ] [Hardshell] new_master {Hardshell}{vCIRgG9nRKSs7P7hsseKQQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
-[2018-02-15 19:26:30,297][INFO ][http                     ] [Hardshell] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
-[2018-02-15 19:26:30,297][INFO ][node                     ] [Hardshell] started
-[2018-02-15 19:26:30,452][INFO ][gateway                  ] [Hardshell] recovered [1] indices into cluster_state
-[2018-02-15 19:26:31,442][INFO ][cluster.routing.allocation] [Hardshell] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[movies_development_20180215191732713][2], [movies_development_20180215191732713][2], [movies_development_20180215191732713][4]] ...]).
-[2018-02-15 19:42:41,013][INFO ][node                     ] [Hardshell] stopping ...
-[2018-02-15 19:42:41,393][INFO ][node                     ] [Hardshell] stopped
-[2018-02-15 19:42:41,393][INFO ][node                     ] [Hardshell] closing ...
-[2018-02-15 19:42:41,422][INFO ][node                     ] [Hardshell] closed
+[2018-02-16 16:56:21,507][INFO ][node                     ] [Strong Guy] version[2.3.4], pid[2207], build[e455fd0/2016-06-30T11:24:31Z]
+[2018-02-16 16:56:21,509][INFO ][node                     ] [Strong Guy] initializing ...
+[2018-02-16 16:56:22,426][INFO ][plugins                  ] [Strong Guy] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2018-02-16 16:56:22,506][INFO ][env                      ] [Strong Guy] using [1] data paths, mounts [[/ (none)]], net usable_space [1.1gb], net total_space [2.1gb], spins? [possibly], types [aufs]
+[2018-02-16 16:56:22,506][INFO ][env                      ] [Strong Guy] heap size [989.8mb], compressed ordinary object pointers [true]
+[2018-02-16 16:56:27,246][INFO ][node                     ] [Strong Guy] initialized
+[2018-02-16 16:56:27,247][INFO ][node                     ] [Strong Guy] starting ...
+[2018-02-16 16:56:27,420][INFO ][transport                ] [Strong Guy] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-02-16 16:56:27,427][INFO ][discovery                ] [Strong Guy] elasticsearch/SnoFy6IWQ1Cya8Nn3ZKazw
+[2018-02-16 16:56:30,481][INFO ][cluster.service          ] [Strong Guy] new_master {Strong Guy}{SnoFy6IWQ1Cya8Nn3ZKazw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2018-02-16 16:56:30,537][INFO ][http                     ] [Strong Guy] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2018-02-16 16:56:30,537][INFO ][node                     ] [Strong Guy] started
+[2018-02-16 16:56:30,703][INFO ][gateway                  ] [Strong Guy] recovered [1] indices into cluster_state
+[2018-02-16 16:56:31,584][INFO ][cluster.routing.allocation] [Strong Guy] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[movies_development_20180215191732713][2], [movies_development_20180215191732713][3], [movies_development_20180215191732713][3], [movies_development_20180215191732713][4], [movies_development_20180215191732713][2]] ...]).
