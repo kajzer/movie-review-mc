@@ -1,14 +1,18 @@
-[2018-02-16 16:56:21,507][INFO ][node                     ] [Strong Guy] version[2.3.4], pid[2207], build[e455fd0/2016-06-30T11:24:31Z]
-[2018-02-16 16:56:21,509][INFO ][node                     ] [Strong Guy] initializing ...
-[2018-02-16 16:56:22,426][INFO ][plugins                  ] [Strong Guy] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
-[2018-02-16 16:56:22,506][INFO ][env                      ] [Strong Guy] using [1] data paths, mounts [[/ (none)]], net usable_space [1.1gb], net total_space [2.1gb], spins? [possibly], types [aufs]
-[2018-02-16 16:56:22,506][INFO ][env                      ] [Strong Guy] heap size [989.8mb], compressed ordinary object pointers [true]
-[2018-02-16 16:56:27,246][INFO ][node                     ] [Strong Guy] initialized
-[2018-02-16 16:56:27,247][INFO ][node                     ] [Strong Guy] starting ...
-[2018-02-16 16:56:27,420][INFO ][transport                ] [Strong Guy] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
-[2018-02-16 16:56:27,427][INFO ][discovery                ] [Strong Guy] elasticsearch/SnoFy6IWQ1Cya8Nn3ZKazw
-[2018-02-16 16:56:30,481][INFO ][cluster.service          ] [Strong Guy] new_master {Strong Guy}{SnoFy6IWQ1Cya8Nn3ZKazw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
-[2018-02-16 16:56:30,537][INFO ][http                     ] [Strong Guy] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
-[2018-02-16 16:56:30,537][INFO ][node                     ] [Strong Guy] started
-[2018-02-16 16:56:30,703][INFO ][gateway                  ] [Strong Guy] recovered [1] indices into cluster_state
-[2018-02-16 16:56:31,584][INFO ][cluster.routing.allocation] [Strong Guy] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[movies_development_20180215191732713][2], [movies_development_20180215191732713][3], [movies_development_20180215191732713][3], [movies_development_20180215191732713][4], [movies_development_20180215191732713][2]] ...]).
+[2018-02-20 17:50:29,951][INFO ][node                     ] [Everyman] version[2.3.4], pid[2759], build[e455fd0/2016-06-30T11:24:31Z]
+[2018-02-20 17:50:29,954][INFO ][node                     ] [Everyman] initializing ...
+[2018-02-20 17:50:30,758][INFO ][plugins                  ] [Everyman] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2018-02-20 17:50:30,837][INFO ][env                      ] [Everyman] using [1] data paths, mounts [[/ (none)]], net usable_space [1.1gb], net total_space [2.1gb], spins? [possibly], types [aufs]
+[2018-02-20 17:50:30,838][INFO ][env                      ] [Everyman] heap size [989.8mb], compressed ordinary object pointers [true]
+[2018-02-20 17:50:35,066][INFO ][node                     ] [Everyman] initialized
+[2018-02-20 17:50:35,067][INFO ][node                     ] [Everyman] starting ...
+[2018-02-20 17:50:35,310][INFO ][transport                ] [Everyman] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-02-20 17:50:35,317][INFO ][discovery                ] [Everyman] elasticsearch/49-GLTedR3KcxQZFASq-9Q
+[2018-02-20 17:50:38,435][INFO ][cluster.service          ] [Everyman] new_master {Everyman}{49-GLTedR3KcxQZFASq-9Q}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2018-02-20 17:50:38,478][INFO ][http                     ] [Everyman] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2018-02-20 17:50:38,479][INFO ][node                     ] [Everyman] started
+[2018-02-20 17:50:38,627][INFO ][gateway                  ] [Everyman] recovered [1] indices into cluster_state
+[2018-02-20 17:50:39,629][INFO ][cluster.routing.allocation] [Everyman] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[movies_development_20180215191732713][4], [movies_development_20180215191732713][3], [movies_development_20180215191732713][3], [movies_development_20180215191732713][4], [movies_development_20180215191732713][2], [movies_development_20180215191732713][2]] ...]).
+[2018-02-20 17:53:04,603][INFO ][node                     ] [Everyman] stopping ...
+[2018-02-20 17:53:04,664][INFO ][node                     ] [Everyman] stopped
+[2018-02-20 17:53:04,664][INFO ][node                     ] [Everyman] closing ...
+[2018-02-20 17:53:04,685][INFO ][node                     ] [Everyman] closed
